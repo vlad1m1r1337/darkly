@@ -1,0 +1,1 @@
+We go to the page with the review. We try to hack the protection in the name field. We do this by inserting this markup there <svg onload="alert('Vulnerability')"></svg>. We do this but we don't get a flag. Next, we try to hack the protection in the comment field by inserting this markup there - <img src="fake" onload="alert('hacked!')" />p . Done
